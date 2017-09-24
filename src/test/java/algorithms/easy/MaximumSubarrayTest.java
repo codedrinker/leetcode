@@ -13,4 +13,10 @@ public class MaximumSubarrayTest {
         Assert.assertEquals(6, new MaximumSubarray().maxSubArray(nums));
     }
 
+    @Test
+    public void maxSubArray2() throws Exception {
+        int nums[] = new int[]{-2, 1, -3};
+        Assert.assertEquals(1, new MaximumSubarray().maxSubArray(nums));
+    }
+
 }
