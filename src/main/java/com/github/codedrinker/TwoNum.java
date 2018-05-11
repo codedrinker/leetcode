@@ -1,4 +1,4 @@
-package algorithms.easy;
+package com.github.codedrinker;
 
 import java.util.HashMap;
 

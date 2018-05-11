@@ -1,6 +1,7 @@
 package algorithms.easy;
 
 
+import com.github.codedrinker.TwoNum;
 import org.junit.Assert;
 import org.junit.Test;
 
