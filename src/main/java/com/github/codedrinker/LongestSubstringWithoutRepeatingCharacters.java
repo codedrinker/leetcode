@@ -1,22 +1,22 @@
 package com.github.codedrinker;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by codedrinker on 13/05/2018.
  */
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
-        int repeatedIndex = 0, length = 0;
-        Map<Character, Integer> map = new HashMap<>();
-        for (int i = 0; i < s.length(); i++) {
-            if (map.containsKey(s.charAt(i))) {
-                repeatedIndex = Math.max(map.get(s.charAt(i)), repeatedIndex);
+        int i = 0, j = 0, length = 0;
+        Set<Character> characters = new HashSet<>();
+        while (i < s.length() && j < s.length()) {
+            if (!characters.contains(s.charAt(j))) {
+                characters.add(s.charAt(j++));
+                length = Math.max(j - i, length);
+            } else {
+                characters.remove(s.charAt(i++));
             }
-
-            length = Math.max(length, i - repeatedIndex + 1);
-            map.put(s.charAt(i), i + 1);
         }
         return length;
     }
