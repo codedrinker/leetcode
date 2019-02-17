@@ -1,4 +1,4 @@
-package com.github.codedrinker;
+package com.github.codedrinker.leetcode.string;
 
 import java.util.HashSet;
 import java.util.Set;
