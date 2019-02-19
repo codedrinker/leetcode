@@ -6,6 +6,13 @@ import java.util.List;
 /**
  * Created by codedrinker on 2019/2/19.
  */
+
+/**
+ * 简单粗暴的穷举法
+ * 2 * n 的数组每一位有两个选择，就是 2^2n
+ * 同时每一次需要检验是否合法 2n
+ * 所以时间复杂度 2^2n * 2n
+ */
 public class GenerateParentheses {
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();

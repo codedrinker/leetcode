@@ -6,6 +6,12 @@ import java.util.Map;
 /**
  * Created by codedrinker on 2019/2/15.
  */
+
+/**
+ * LongestSubstringWithoutRepeatingCharacters 的升级版本
+ * 由 LongestSubstringWithoutRepeatingCharacters  可知，在i移动过程中直到刚才的重复是不会有最大指的，
+ * 所以直接 skip 到 j 的位置就可以了，使用 map 记录应该skip到哪里
+ */
 public class LongestSubstringWithoutRepeatingCharactersOptimized {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length(), ans = 0;

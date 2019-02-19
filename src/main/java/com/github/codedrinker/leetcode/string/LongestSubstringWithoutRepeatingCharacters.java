@@ -6,6 +6,12 @@ import java.util.Set;
 /**
  * Created by codedrinker on 13/05/2018.
  */
+
+/**
+ * 做题解析
+ * 做区间比较[i,j)的长度，j 循环递增，发现重复的记录到 set 里面
+ * i移动，直到没有重复，每次计算最大的值长度暂存，最后返回
+ */
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         int i = 0, j = 0, length = 0;
