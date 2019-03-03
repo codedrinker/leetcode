@@ -1,4 +1,4 @@
-package com.github.codedrinker.leetcode.string;
+package com.github.codedrinker.leetcode.string.parentheses;
 
 /**
  * Created by codedrinker on 2019/3/2.

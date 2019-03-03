@@ -1,6 +1,7 @@
 package com.github.codedrinker.leetcode.string;
 
 /**
+ * {https://leetcode.com/problems/multiply-strings/}
  * Created by codedrinker on 2019/2/21.
  */
 public class MultiplyStrings {

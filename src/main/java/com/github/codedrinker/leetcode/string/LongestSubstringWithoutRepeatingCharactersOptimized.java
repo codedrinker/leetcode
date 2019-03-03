@@ -8,6 +8,7 @@ import java.util.Map;
  */
 
 /**
+ * {https://leetcode.com/problems/longest-substring-without-repeating-characters}
  * LongestSubstringWithoutRepeatingCharacters 的升级版本
  * 由 LongestSubstringWithoutRepeatingCharacters  可知，在i移动过程中直到刚才的重复是不会有最大指的，
  * 所以直接 skip 到 j 的位置就可以了，使用 map 记录应该skip到哪里

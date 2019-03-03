@@ -8,6 +8,7 @@ import java.util.Set;
  */
 
 /**
+ * {https://leetcode.com/problems/longest-substring-without-repeating-characters}
  * 做题解析
  * 做区间比较[i,j)的长度，j 循环递增，发现重复的记录到 set 里面
  * i移动，直到没有重复，每次计算最大的值长度暂存，最后返回

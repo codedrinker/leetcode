@@ -1,4 +1,4 @@
-package com.github.codedrinker.leetcode.string;
+package com.github.codedrinker.leetcode.string.parentheses;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +8,7 @@ import java.util.List;
  */
 
 /**
+ * {https://leetcode.com/problems/generate-parentheses/}
  * 简单粗暴的穷举法
  * 2 * n 的数组每一位有两个选择，就是 2^2n
  * 同时每一次需要检验是否合法 2n

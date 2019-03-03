@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * {https://leetcode.com/problems/minimum-time-difference/}
  * Created by codedrinker on 2019/2/25.
  */
 public class MinimumTimeDifference {

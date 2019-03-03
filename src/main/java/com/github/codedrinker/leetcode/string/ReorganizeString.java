@@ -4,9 +4,7 @@ import java.util.Arrays;
 
 /**
  * Created by codedrinker on 2019/3/2.
- *
- * @link {https://leetcode.com/problems/reorganize-string/}
- * <p>
+ * {https://leetcode.com/problems/reorganize-string/}
  * 思路
  * 把所有的字母相同的合并并排序，如果有出现最大数量大于(n+1)/2 那么直接返回错误，如果不出现跳跃数量排序
  */
