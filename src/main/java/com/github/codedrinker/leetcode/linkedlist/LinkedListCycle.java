@@ -1,4 +1,4 @@
-package com.github.codedrinker.leetcode.link;
+package com.github.codedrinker.leetcode.linkedlist;
 
 import java.util.HashSet;
 import java.util.Set;
