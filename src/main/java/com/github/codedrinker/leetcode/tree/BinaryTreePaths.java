@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * Created by codedrinker on 2019/6/2.
+ * https://leetcode.com/problems/binary-tree-paths/
  */
 public class BinaryTreePaths {
 
